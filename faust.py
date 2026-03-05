@@ -149,7 +149,7 @@ class MyClient(discord.Client):
         if interaction.response.is_done():
             return
         await interaction.response.send_message(
-            "인간은 노력하는 한 방황하는 법입니다."
+            "인간은 노력하는 한, 방황하는 법입니다."
         )
 
 
